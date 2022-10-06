@@ -63,7 +63,8 @@ header nav li a {
 }
 
 .subtitle {
-    padding: 20px;
+    text-align: right;
+    background-color: hotpink;
 }
 
 .subtitle h2 {
@@ -73,12 +74,11 @@ header nav li a {
 }
 
 main {
-
+    background-color: black;
 }
 
-main .content {
-    padding: 20px;
-
+.content {
+    background-color: green;
 }
 
 .section {
@@ -89,6 +89,7 @@ main .content {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
+    background-color: yellow;
 }
 
 .section > h2 {
@@ -98,32 +99,37 @@ main .content {
     font-size: 4vw;
     color: var(--darkblue);
     border-right: 5px solid var(--darkblue);
+    background-color: green;
 }
 
 .section p {
+    background-color: blue;
     flex: 0 0 77px;
     display: block;
+    
 }
 
 .flex-container {
     padding: 20px;
-
+    background-color: blue;
 }
 
 .flex-item {
     padding: 20px;
-
+    background-color: bisque;
 }
 
 .flex-item h3 {
     padding: 20px;
     text-decoration: none;
+    background-color: violet;
 
 }
 
 .flex-item span {
     padding: 20px;
     text-decoration: none;
+    background-color: brown;
 }
 
 footer nav ul {
@@ -136,8 +142,10 @@ footer nav ul {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    background-color: gold;
 }
 
 footer nav a {
     color: var(--darkblue);
+    background-color: red;
 }
