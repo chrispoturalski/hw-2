@@ -1,35 +1,42 @@
 * {
     box-sizing: border-box;
-    padding: 0;
+}
+
+body {
     margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: darkblue;
-    color: white;
-    width: 100%;
-    padding: 10px;
+    padding: 15px 6% 15px 0;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: darkblue;
 }
 
 header h1 {
-    font-size: 1.5em;
+    font-size: 4vw;
+    padding: 25px;
+    color: white;
     font-weight: bold;
 }
 
 header li {
     list-style: none;
-    font-size: 28px;
+    font-size: 1.4em;
     margin: 10px;
     padding: 10px;
     display: inline-flex;
 }
 
 header nav li a {
+    text-decoration: none;
     color: white;
     justify-content: space-between;
-    border-bottom: black;
+    border-bottom: 4px solid black;
 }
 
 a {
@@ -48,7 +55,11 @@ p {
 .subtitle h2 {
     padding: 20px;
     font-size: 35px;
+}
 
+main {
+    display: flex;
+    flex-wrap: 1;
 }
 
 main .content {
@@ -57,19 +68,22 @@ main .content {
 }
 
 .section {
+    margin: 25px 0;
     padding: 20px;
-
+    display: flex;
 }
 
 .section h2 {
     padding: 20px;
+    margin: 0px;
     font-size: 60px;
-
+    border-right: 5px solid darkblue;
 }
 
 .section p {
+    flex: 0 0 77px;
     padding: 20px;
-
+    display: block;
 }
 
 .flex-container {
