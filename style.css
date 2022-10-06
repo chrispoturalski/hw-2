@@ -13,15 +13,59 @@ header {
     justify-content: space-between;
 }
 
-header .brand {
+header h1 {
     font-size: 1.5em;
     font-weight: bold;
 }
 
-nav ul {
+header li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+header nav li a {
+    color: white;
+}
+
+a {
+    color: blue;
+}
+
+p {
+    color: green;
+}
+
+.subtitle {}
+
+.subtitle h2 {}
+
+main .content {}
+
+.section {}
+
+.section h2 {}
+
+.section p {}
+
+.flex-container {}
+
+.flex-item {}
+
+.flex-item h3 {}
+
+.flex-item span {}
+
+footer nav ul {
     color: white;
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+}
+
+footer nav a {
+    color: green;
 }
