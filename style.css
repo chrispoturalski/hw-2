@@ -25,6 +25,8 @@ h2 {
 
 p {
     margin: 0;
+    font-size: 20px;
+    color: var(--darkblue);
 }
 
 header {
@@ -39,7 +41,7 @@ header {
 
 header h1 {
     font-size: 4vw;
-    padding: 25px;
+    padding: 5px 1% 5px 6%;
     color: var(--darkgray);
     background-color: var(--lightblue);
     font-weight: bold;
@@ -55,18 +57,9 @@ header li {
 
 header nav li a {
     text-decoration: none;
-    color: var(--darkblue);
-    justify-content: space-between;
-    border-bottom: 4px solid var(--darkblue);
-}
-
-a {
-    color: var(--darkblue);
-}
-
-p {
-    font-size: 20px;
-    color: var(--darkblue);
+    margin-right: 5px;
+    color: var(--lightblue);
+    border-bottom: 4px solid var(--lightblue);
 }
 
 .subtitle {
@@ -80,8 +73,7 @@ p {
 }
 
 main {
-    display: flex;
-    flex-wrap: 1;
+
 }
 
 main .content {
