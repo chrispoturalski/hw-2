@@ -80,15 +80,41 @@ header nav li a {
     background-color: var(--lightblue);
 }
 
-.content {
-    background-color: green;
-}
-
-main {
-    
-}
-
 .section {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.about-me > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 4vw;
+    color: var(--darkblue);
+    border-right: 5px solid var(--darkblue);
+}
+
+.about-me div {
+    flex: 0 0 77%;
+}
+
+.about-me p {
+    flex: 0 0 77px;
+    display: block;
+}
+
+.work {
     margin: 25px 0;
     padding: 10px 0;
     display: flex;
@@ -99,7 +125,7 @@ main {
     background-color: yellow;
 }
 
-.section > h2 {
+.work > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding: 0px 15px 0px 25px;
@@ -109,11 +135,10 @@ main {
     background-color: green;
 }
 
-.section p {
+.work p {
     background-color: blue;
     flex: 0 0 77px;
     display: block;
-    
 }
 
 .flex-container {
@@ -137,6 +162,16 @@ main {
     padding: 20px;
     text-decoration: none;
     background-color: brown;
+}
+
+.contact h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding: 0px 15px 0px 25px;
+    font-size: 4vw;
+    color: var(--darkblue);
+    border-right: 5px solid var(--darkblue);
+    background-color: green;
 }
 
 footer nav ul {
