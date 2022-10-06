@@ -147,33 +147,36 @@ header nav li a {
     justify-content: center;
     height: 100vh;
     margin: 0 auto;
-    border-style: solid;
-    border-width: 2px;
-    background-color: blue;
+   
 }
 
 .flex-item {
+    border: 5px solid var(--lightblue);
+    color: var(--darkgray);
     min-height: 150px;
     max-height: 150px;
+    flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
     margin: 0.5em;
     text-decoration: none;
-    background-color: bisque;
+    background-color: var(--lightgray);
+    background-size: 150%;
+}
+
+.flex-item div {
+    padding: 6px 8px;
 }
 
 .flex-item h3 {
-    padding: 20px;
-    text-decoration: dashed;
-    background-color: violet;
-
+    font: 1.5em;
+    background-color: var(--lightblue);
 }
 
 .flex-item span {
     padding: 20px;
-    text-decoration: dashed;
-    background-color: brown;
+    background-color: var(--lightblue);
 }
 
 .contact h2 {
