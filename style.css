@@ -80,12 +80,12 @@ header nav li a {
     background-color: var(--lightblue);
 }
 
-main {
-    background-color: black;
-}
-
 .content {
     background-color: green;
+}
+
+main {
+    
 }
 
 .section {
