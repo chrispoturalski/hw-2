@@ -110,8 +110,7 @@ header nav li a {
 }
 
 .about-me p {
-    flex: 0 0 77px;
-    display: block;
+    margin-bottom: 20px;
 }
 
 .work {
@@ -122,7 +121,6 @@ header nav li a {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
-    background-color: yellow;
 }
 
 .work > h2 {
@@ -132,35 +130,49 @@ header nav li a {
     font-size: 4vw;
     color: var(--darkblue);
     border-right: 5px solid var(--darkblue);
-    background-color: green;
+}
+
+.work div {
+    flex: 0 0 77%;
 }
 
 .work p {
-    background-color: blue;
-    flex: 0 0 77px;
-    display: block;
+    margin-bottom: 20px;
 }
 
 .flex-container {
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
     background-color: blue;
 }
 
 .flex-item {
-    padding: 20px;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
     background-color: bisque;
 }
 
 .flex-item h3 {
     padding: 20px;
-    text-decoration: none;
+    text-decoration: dashed;
     background-color: violet;
 
 }
 
 .flex-item span {
     padding: 20px;
-    text-decoration: none;
+    text-decoration: dashed;
     background-color: brown;
 }
 
