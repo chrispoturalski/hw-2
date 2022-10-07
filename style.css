@@ -165,6 +165,10 @@ header nav li a {
     background-size: 150%;
 }
 
+.flex-item:hover {
+    background-color: var(--white);
+}
+
 .flex-item div {
     padding: 6px 8px;
 }
@@ -176,33 +180,42 @@ header nav li a {
 
 .flex-item span {
     padding: 20px;
+    font-size: 0.9em;
     background-color: var(--lightblue);
 }
 
-.contact h2 {
+.contact {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.contact > h2 {
     flex: 0 0 20%;
     text-align: right;
-    padding: 0px 15px 0px 25px;
+    padding: 0px 10px 0px 15px;
     font-size: 4vw;
     color: var(--darkblue);
     border-right: 5px solid var(--darkblue);
-    background-color: green;
 }
 
-footer nav ul {
+section nav ul {
+    flex: 0 0 77%;
     color: var(--darkblue);
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: gold;
 }
 
 footer nav a {
     color: var(--darkblue);
-    background-color: red;
 }
