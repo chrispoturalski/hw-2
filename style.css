@@ -56,10 +56,17 @@ header li {
 }
 
 header nav li a {
-    text-decoration: none;
-    margin-right: 5px;
+    padding: 5px 10px;
     color: var(--lightblue);
-    border-bottom: 4px solid var(--lightblue);
+    background-image: var(--lightblue);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+}
+
+header nav a:hover {
+    background-size: 100% 100%;
+    color: var(--lightblue);
 }
 
 .subtitle {
