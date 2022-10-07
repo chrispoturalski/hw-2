@@ -197,25 +197,30 @@ header nav li a {
 .contact > h2 {
     flex: 0 0 20%;
     text-align: right;
-    padding: 0px 10px 0px 15px;
+    padding-right: 15px;
     font-size: 4vw;
     color: var(--darkblue);
     border-right: 5px solid var(--darkblue);
 }
 
-section nav ul {
+.contact div {
     flex: 0 0 77%;
-    color: var(--darkblue);
-    list-style: none;
-    margin: 0;
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
-footer nav a {
-    color: var(--darkblue);
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+address a {
+   color: var(--darkblue);
+   text-decoration: none;
+   text-align: center;
+   padding: 5px;
+   font-size: 1.3rem;
+   font-style: normal;
+   align-items: center;
+   margin: 0 0.2rem 0.1rem;
+   display: inline-block;
 }
